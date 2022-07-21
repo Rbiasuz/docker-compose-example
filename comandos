@@ -1,0 +1,9 @@
+# run container
+docker run -it -v  C:\Users\rodri\Documents\class\exemplo-docker-compose:/code --rm --name teste pytesseract:latest
+
+# comandos compose
+docker compose up -d
+
+# comandos uteis
+docker ps -a
+docker logs "nome do container"
